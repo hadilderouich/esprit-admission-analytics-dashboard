@@ -1,59 +1,101 @@
-# ProjetBIPI
+# Smart Power BI Dashboard for ESPRIT
 
-This project was generated using [Angular CLI](https://github.com/angular/angular-cli) version 19.2.10.
+An interactive **Business Intelligence and AI analytics platform** developed as part of an academic PIdev project at **ESPRIT**.
 
-## Development server
+The project focuses on transforming admission-related data into meaningful visual insights to support **admission process monitoring, data analysis, and strategic decision-making**.
 
-To start a local development server, run:
+## About the Project
 
-```bash
-ng serve
-```
+The **Smart Power BI Dashboard** provides an interactive environment for analyzing historical and real-time admission data.
 
-Once the server is running, open your browser and navigate to `http://localhost:4200/`. The application will automatically reload whenever you modify any of the source files.
+The solution combines **Power BI, SQL Server, and Python-based analytics** to transform raw data into interactive dashboards and actionable insights.
 
-## Code scaffolding
+The platform was designed to help decision-makers monitor admission activities, identify trends, and better understand the evolution of admission-related data.
 
-Angular CLI includes powerful code scaffolding tools. To generate a new component, run:
+## Main Features
 
-```bash
-ng generate component component-name
-```
+- Interactive admission monitoring dashboards
+- Historical data analysis
+- Real-time data visualization
+- Admission statistics and KPIs
+- Strategic insights from data
+- Interactive filters and drill-down analysis
+- Data preparation and transformation
+- AI-powered analytics
+- Visual representation of admission trends
+- User-friendly and interactive interface
 
-For a complete list of available schematics (such as `components`, `directives`, or `pipes`), run:
+## Technology Stack
 
-```bash
-ng generate --help
-```
+### Business Intelligence
 
-## Building
+- Power BI
+- Power BI Service
+- Data Visualization
+- KPI Dashboards
 
-To build the project run:
+### Database
 
-```bash
-ng build
-```
+- SQL Server
+- SQL
+- Data Warehouse
 
-This will compile your project and store the build artifacts in the `dist/` directory. By default, the production build optimizes your application for performance and speed.
+### Data Engineering
 
-## Running unit tests
+- ETL
+- Data Preparation
+- Data Transformation
 
-To execute unit tests with the [Karma](https://karma-runner.github.io) test runner, use the following command:
+### AI & Analytics
 
-```bash
-ng test
-```
+- Python
+- Machine Learning
+- Predictive Analytics
 
-## Running end-to-end tests
+## Project Architecture
 
-For end-to-end (e2e) testing, run:
+```text
+                 ┌──────────────────────┐
+                 │   Source Data        │
+                 │  Admission Records   │
+                 └──────────┬───────────┘
+                            │
+                            ▼
+                 ┌──────────────────────┐
+                 │     SQL Server       │
+                 │   Database / DWH     │
+                 └──────────┬───────────┘
+                            │
+                            │ ETL
+                            ▼
+                 ┌──────────────────────┐
+                 │   Data Processing    │
+                 │   & Transformation   │
+                 └──────────┬───────────┘
+                            │
+                 ┌──────────┴───────────┐
+                 │                      │
+                 ▼                      ▼
+        ┌─────────────────┐    ┌─────────────────┐
+        │     Power BI    │    │     Python      │
+        │   Dashboards    │    │ AI / Analytics  │
+        └────────┬────────┘    └────────┬────────┘
+                 │                      │
+                 └──────────┬───────────┘
+                            ▼
+                 ┌──────────────────────┐
+                 │ Strategic Insights  │
+                 │ & Decision Support  │
+                 └──────────────────────┘
 
-```bash
-ng e2e
-```
 
-Angular CLI does not come with an end-to-end testing framework by default. You can choose one that suits your needs.
 
-## Additional Resources
 
-For more information on using the Angular CLI, including detailed command references, visit the [Angular CLI Overview and Command Reference](https://angular.dev/tools/cli) page.
+
+
+
+
+https://github.com/user-attachments/assets/3beab82f-c076-4ef1-8f8f-33c9dea13316
+
+
+
