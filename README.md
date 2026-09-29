@@ -146,7 +146,3 @@ https://github.com/user-attachments/assets/692194dd-b853-4605-b03d-dd90200eeb48
 ```
 
 ```
-
-There must be **only one closing ` ``` ` immediately after the architecture diagram**, and **nothing around the Demo URL**.
-
-If it **still appears as a clickable link instead of a video player**, then the issue is no longer your Markdown structure — it means GitHub is not recognizing that particular attachment as a video asset. In that case, I can show you the exact GitHub method to upload the MP4 so it renders as the player shown in your screenshot.
