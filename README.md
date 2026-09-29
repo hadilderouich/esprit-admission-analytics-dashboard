@@ -92,10 +92,5 @@ The platform was designed to help decision-makers monitor admission activities, 
 
 
 
-
-
-
-https://github.com/user-attachments/assets/3beab82f-c076-4ef1-8f8f-33c9dea13316
-
-
+https://github.com/user-attachments/assets/43ad5ad1-c99b-4203-a713-3087bcec96ca
 
