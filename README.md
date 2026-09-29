@@ -1,3 +1,4 @@
+```md
 # Smart Power BI Dashboard for ESPRIT
 
 An interactive **Business Intelligence and AI analytics platform** developed as part of an academic PIdev project at **ESPRIT**.
@@ -56,14 +57,14 @@ The platform was designed to help decision-makers monitor admission activities, 
 
 ```text
                  ┌──────────────────────┐
-                 │   Source Data        │
-                 │  Admission Records   │
+                 │    Source Data       │
+                 │   Admission Records  │
                  └──────────┬───────────┘
                             │
                             ▼
                  ┌──────────────────────┐
                  │     SQL Server       │
-                 │   Database / DWH     │
+                 │    Database / DWH    │
                  └──────────┬───────────┘
                             │
                             │ ETL
@@ -84,19 +85,65 @@ The platform was designed to help decision-makers monitor admission activities, 
                  └──────────┬───────────┘
                             ▼
                  ┌──────────────────────┐
-                 │ Strategic Insights  │
-                 │ & Decision Support  │
+                 │  Strategic Insights │
+                 │  & Decision Support  │
                  └──────────────────────┘
+```
 
+## Key Objectives
 
+- Monitor the admission process through interactive dashboards
+- Centralize and visualize admission-related data
+- Analyze historical admission trends
+- Provide real-time and interactive insights
+- Support data-driven decision-making
+- Apply AI and predictive analytics to admission data
+- Improve the accessibility and interpretation of complex datasets
 
+## My Role
 
+**BI & AI Developer**
 
-```md
+During this project, I worked on:
+
+- Designing interactive Power BI dashboards
+- Preparing and transforming data
+- Working with SQL Server databases
+- Developing analytical queries
+- Implementing KPIs and data visualizations
+- Integrating Python-based analytics
+- Analyzing historical admission data
+- Developing AI-powered analytical features
+- Testing and validating dashboard results
+
+## Project Information
+
+| Category | Details |
+|---|---|
+| **Project** | Smart Power BI Dashboard for ESPRIT |
+| **Type** | Academic PIdev Project |
+| **Institution** | ESPRIT |
+| **Role** | BI & AI Developer |
+| **Duration** | February 2025 – May 2025 |
+| **Domain** | Business Intelligence & Data Analytics |
+
+## Skills Developed
+
+`Power BI` · `SQL Server` · `SQL` · `Python` · `Business Intelligence` · `Data Analytics` · `Data Visualization` · `ETL` · `Data Warehousing` · `Machine Learning` · `Predictive Analytics`
+
+---
+
 ## Demo
 
 
-https://github.com/user-attachments/assets/3fc06b4c-0550-48de-b2c4-7e8f910e9854
+https://github.com/user-attachments/assets/692194dd-b853-4605-b03d-dd90200eeb48
+
 
 
 ```
+
+```
+
+There must be **only one closing ` ``` ` immediately after the architecture diagram**, and **nothing around the Demo URL**.
+
+If it **still appears as a clickable link instead of a video player**, then the issue is no longer your Markdown structure — it means GitHub is not recognizing that particular attachment as a video asset. In that case, I can show you the exact GitHub method to upload the MP4 so it renders as the player shown in your screenshot.
